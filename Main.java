@@ -1,9 +1,10 @@
 class Main
 {
     public static void main(String args[]){
-        if(args[0]/2==0)
-        System.out.println(args[0]+" is a Even number");
+        int x=(int)args[0];
+        if(x/2==0)
+        System.out.println(x+" is a Even number");
         else
-        System.out.println(args[0]+" is a Odd number");
+        System.out.println(x+" is a Odd number");
     }
 }
